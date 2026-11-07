@@ -4,7 +4,7 @@ import pandas as pd
 
 st.header("Water Potability Prediction App")
 
-with open("water_potability_model.pkl", "rb") as f:
+with open("./ML_Model/water_potability_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 with st.sidebar:
